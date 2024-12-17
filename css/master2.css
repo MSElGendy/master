@@ -1,0 +1,582 @@
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background-size: cover;
+  background-position: center;
+  background-color: #FFF5E0;
+}
+
+
+    
+.msg_title{
+  margin: 10px;
+  text-align: center;
+  color: black;
+}
+
+
+
+      
+      /* nav bar 1  */
+
+      .navbar1 {
+        height: 20vh;
+        margin: auto;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+      .msg_title1{
+        text-align: center;
+        color: black;
+      }
+
+
+      .logo1 , .logo2 {
+        max-height: 130px;
+        max-width: 100%;
+        vertical-align: middle;
+        margin: 0 15px;
+    }
+
+   
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #9BCDD2;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 18px;   
+  font-weight: 600; 
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 12px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #9BCDD2;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: right;
+}
+
+.outside_list{
+  right: 50px;
+}
+
+
+.wide_list1 , .wide_list2{
+  display: inline-block;
+  margin-inline: 10px;
+  float: right;
+}
+
+.list_title{
+  text-align: right;
+  color: orangered;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn  ,  .dropdown-content a:hover  {
+  color: orangered;
+}
+
+
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+}
+
+
+
+
+
+.fa-angle-right {
+  float: right;
+}
+
+.down {
+  float: right;
+}
+
+
+.fa {
+  margin-right: 2px;
+}
+
+
+
+
+
+.topnav a {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+
+.mysecond_dropdown a {
+  text-align: center;
+  background-color: powderblue;
+  color: black;
+}
+
+
+.mysecond_dropdown a:hover {
+  color: orangered;
+}
+
+
+
+.dropdown-container {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ /*  content  */
+
+
+
+ .solid {
+  border-style: solid black;
+  background-color: #9BCDD2;
+  width: 80%;
+  text-align: center;
+  padding: 5px;
+  color: black;
+  margin: 120px auto;
+}
+
+
+
+.page_contain {
+  border: 2px solid #9BCDD2;
+  width: 78.2%;
+  padding: 15px;
+  color: black;
+  font-size: 25px;
+  text-align: right;
+  margin: 10px auto 100px auto;
+}
+
+
+
+.spn_orange{
+  color: orangered;
+}
+
+
+
+
+
+
+  
+
+/* <!-- image slider  --> */
+
+        
+.all_photos_labs img{
+  width: 800px;
+  height: 600px;
+  margin: 0 100px;
+}
+
+.all_photos_labs {
+margin: 80px 0px;
+}
+
+.mySlides  {
+  display: none;
+}
+
+img {
+  vertical-align: middle
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 25px;
+  background-color: #FFF5E0;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot  {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+
+}
+
+.active1 {
+  background-color: #9BCDD2;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+
+/* <!-- image slider  -->  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Scholars{
+  margin: 100px;
+}
+
+
+.Scholars img {
+  width: 275px;
+  height: 250px;
+  align-items: center;
+ }
+
+
+
+
+table {
+  width: 60%;
+  margin: 0px 80px;
+  padding: 5px;
+  text-align: center;
+}
+
+
+
+
+th{
+  width: 50%;
+  border: 2px solid #9BCDD2;
+  background-color: #9BCDD2;
+  font-size: 23px;
+  color: black; 
+  padding: 5px;
+  text-align: center;
+}
+
+td{
+  width: 50%;
+  font-size: 15px;
+  color: black;
+  padding: 5px;
+  text-align: center;
+}
+
+
+
+
+/*  content   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  background-color: #9BCDD2;
+  color: black;
+  font-size: 18px;
+  margin-top: 20%;
+}
+footer * {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.row {
+  padding: 1em 1em;
+}
+.row.primary {
+  display: grid;
+  align-items: stretch;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 850px) {
+  .row.primary {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+
+
+
+
+        /* media  */
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+
+  
+  
+  .navbar1 {
+    height: 35vh;
+  }
+
+  /* .logo1 {
+    max-height: 100px;
+    max-width: 60%;
+    vertical-align: middle;
+    margin: 0 0px;
+} */
+
+
+
+.logo1 , .logo2{
+  display: none;
+}
+
+ 
+ 
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+
+
+  
+.dropdown-content {
+  background-color: powderblue;
+}
+
+
+.dropdown-content a {
+  color: black;
+}
+
+.dropdown-content a:hover  {
+  color: orangered;
+}
+
+
+
+
+
+/* page content  */
+  
+
+
+
+
+.solid {
+  margin-top: 100px;
+}
+
+
+
+
+.page_contain{
+  margin-top: 1px;
+  width: 75%;
+}
+
+
+
+
+
+table {
+margin-left: -5px;
+}
+
+
+
+
+
+/* image slider  */
+
+.all_photos_labs img{
+  width: 80%;
+  height: 400px;
+  margin: 0 30px;
+}
+
+.text  {
+      width: 80%;
+      margin: 0 20px;
+    }
+
+
+
+
+
+
+.outside_list{
+  right: 0px;
+}
+
+
+
+
+footer{
+  margin-top: 50%;
+}
+
+
+}
